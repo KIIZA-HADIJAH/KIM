@@ -1,0 +1,159 @@
+
+.body{
+	font-family: 'Poppins',san-serif;
+
+}
+.navbar{
+
+	display: flex;
+	align-items: center;
+	padding: 20px;
+
+}
+nav{
+	flex: 1;
+
+	text-align: right;
+
+}
+nav ul{
+	display:inline-block;
+	margin: 20px;
+}
+nav ul li{
+	display: inline-block;
+	margin: 20px;
+}
+a{
+text-decoration: none;
+color :#555;
+}
+p{
+color:#555;
+}
+.account-page{
+	padding: 50px 0;
+	background: radial-gradient(#290404,#b63030); 
+	background: rgb(59, 61, 151);
+}
+.form-container{
+	background-color: rgb(173, 46, 152) 11, 29);
+	width:300px;
+	height:20px;
+	position:relative;
+	text-align: center;
+	padding: 20px 0;
+	margin: auto;
+	box-shadow: 0 0 20px 0px rgba(139,3,3,0.1)240,0.1);
+}
+.form-btn{
+	display:inline-block;
+}
+form.btn:focus{
+	outline: none;
+}
+#LoginForm{
+	left: -300px;
+}
+#RegForm{
+	left:0;
+}
+
+.logo{
+	color: rgb(18, 165, 50);
+	padding: 90px;
+}
+.btn{
+	display:inline-block;
+	background:hsl(71, 95%, 45%);
+	color:rgb(182, 154, 112);
+	padding: 8px 30px;
+	margin:30px 0;
+	border-radius: 30px;
+
+}
+.btn:hover{
+	background:#cc0d7c;
+}
+.header{
+	background:radial-gradient(#0b1d19,#e6eee0);
+}
+.header.row{
+	margin:70px 0;
+}
+
+.small container{
+	max-width:1080px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+.col-4{
+	flex-basis:25%;
+	padding: 10%;
+	min-width:200px;
+	margin-bottom:50px;
+	transition:transform 0.5s;
+}
+.col-4 img{
+	width:100;
+}
+.title{
+	text-align:center;
+	margin: 0 auto 80px;
+	position:relative;
+	line-height: 60px;
+	color: rgb(20, 20, 175);
+}
+.title:after{
+	content:'';
+	background:#d31f08;
+	width:80px;
+	height:5px;
+	position: absolute;
+	bottom: 0;
+	left: 50;
+}
+.ransform: translateX(-50%){
+}
+h4{
+		color:#ce0707;
+		font-weight:normal;
+		}
+.col-3 p{
+		font-size:14px;
+		}
+.col-3:hover{
+			transform:translateX(-5px);
+		}*
+		
+.footer p{
+	color:#fff;
+}
+.footer h3{
+	color:#fff;
+	margin-bottom: 20px;
+}
+.footer-col,.footer-col-2,.footer-col-3{
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+.footer-col-1{
+	flex-basis:30%;
+
+}.footer-col-2{
+	flex:1;
+	text-align:center;
+}
+.footer-col-2 h2{
+	width:180px;
+    margin-bottom: 20px;
+	color:#8a8a8a;
+}
+.copyright{
+	text-align:center;
+}
+.timk{
+	background-color: rgb(128, 92, 148);
+	
+}	
